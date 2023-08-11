@@ -1,8 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
 * main - check if n is positive, negative or equal 0
 * Return: alwys 0 in c language
@@ -16,13 +14,13 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positive");
+		printf("%d is positive\n", n);
 	} else if (n == 0)
 	{
-		printf("is zero");
+		printf("%d is zero\n", n);
 	} else if (n < 0)
 	{
-		print("is negative");
+		print("%d is negative\n", n);
 	}
 	return (0);
 }
