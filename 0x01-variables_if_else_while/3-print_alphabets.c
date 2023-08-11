@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print lowecase alphapet
+* main - print lowercase and uppercase alphapet
 * Return: alwys 0 in c language
 */
 int main(void)
