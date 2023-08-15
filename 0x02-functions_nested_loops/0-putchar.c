@@ -1,7 +1,8 @@
 #include "main.h"
+#include "putchar.c"
 /**
 * main - print _putchar
-* Return: alwys 0 in c language
+* Return: always 0 in c language
 */
 int main(void)
 {
