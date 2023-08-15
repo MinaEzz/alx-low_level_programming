@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* _islower  - print lowercase
+* _islower - print lowercase
+* @c: is the character in lowercase
 * Return: alwys 0 in c language
 */
 int _islower(int c)
@@ -9,7 +10,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
