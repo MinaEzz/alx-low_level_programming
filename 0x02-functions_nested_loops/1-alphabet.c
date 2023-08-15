@@ -1,4 +1,4 @@
-#include "putchar.c"
+#include "main.h"
 /**
 * print_alphabet - print lowercase alphapet
 * Return: alwys 0 in c language
