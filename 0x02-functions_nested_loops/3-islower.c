@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - print sizeof
+* _islower  - print lowercase
 * Return: alwys 0 in c language
 */
 int _islower(int c)
