@@ -1,10 +1,10 @@
-#include "main.h"
+i#include "main.h"
 /**
 * print_most_numbers - prints '0' to '9' except '2' and '4'
 */
 void print_most_numbers(void)
 {
-	int i;
+	char i;
 
 	for (i = '0'; i < '10'; i++)
 	{
