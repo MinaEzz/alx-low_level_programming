@@ -12,18 +12,18 @@ int _sqrt_recursion(int n)
 	}
 	else if (n == 0 || n == 1)
 	{
-		return (n);
+		return (_sqrt_recursion(n, 0));
 	}
 	else
 	{
 		int i = 1;
 		int result = 1;
 
-		while (result <= n)
+		if (result <= n)
 		{
 			i++;
 			result = i * i;
 		}
-		return (i - 1);
+		return (_sqrt_recursion(i - 1));
 	}
 }
